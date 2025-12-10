@@ -43,3 +43,65 @@ I have hands-on experience in developing enterprise-grade SAP UI5 and SAP Fiori 
 
 ## 📂 Project Structure
 
+sap-portfolio/
+│
+├── public/
+│ └── Subham_Ghosh_Resume.pdf
+│
+├── src/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── Resume.jsx
+│ │ ├── Projects.jsx
+│ │ ├── Contact.jsx
+│ │ └── Footer.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── tailwind.config.cjs
+├── postcss.config.cjs
+├── package.json
+└── README.md
+
+
+---
+
+## 📄 Resume Download
+
+The **Resume section** allows users to download the latest PDF resume directly.
+
+📌 Resume file location:
+
+
+---
+
+## ✉️ Contact Form Behavior
+
+- Clicking **Send via Gmail** opens Gmail Compose
+- Email details:
+  - **To:** `ghoshsubham778@gmail.com`
+  - **Subject:** Professional portfolio inquiry
+  - **Body:** User message only
+  - **Signature:**
+    ```
+    Regards,
+    Name: <User Name>
+    Email: <User Email>
+    LinkedIn: <Profile Link>
+    GitHub: <Profile Link>
+    ```
+
+> ⚠️ Gmail security does not allow changing the actual “From” address — user email is included in the signature for reply.
+
+---
+
+## 🧑‍💻 Local Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/subham-Gh/portfolio.git
+cd portfolio
